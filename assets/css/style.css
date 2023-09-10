@@ -6,16 +6,16 @@ body {
 
 .full-bg {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 100vh;
     padding: 0;
     margin: 0;
-    background-color: #0000;
+    background-color: #000;
 }
 
 .full-bg img {
-    justify-content: center;
-    align-items: center;
     min-width: 280px;
     max-width: 20%;
 }
