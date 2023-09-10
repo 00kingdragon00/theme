@@ -1,12 +1,21 @@
-.full-bg {
-    display: flex;
+body {
     width: 100%;
-    margin: 100%;
     padding: 0;
     margin: 0;
-    background-color: #2b2b2b;
+}
+
+.full-bg {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: #0000;
 }
 
 .full-bg img {
-
+    justify-content: center;
+    align-items: center;
+    min-width: 280px;
+    max-width: 20%;
 }
